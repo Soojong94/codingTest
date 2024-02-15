@@ -1,4 +1,4 @@
-package codingTest;
+package Programmers;
 
 public class 더크게합치기 {
 

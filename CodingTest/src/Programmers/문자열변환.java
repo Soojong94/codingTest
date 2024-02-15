@@ -1,4 +1,4 @@
-package codingTest;
+package Programmers;
 
 public class 문자열변환 {
 

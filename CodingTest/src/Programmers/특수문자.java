@@ -1,4 +1,4 @@
-package codingTest;
+package Programmers;
 
 public class 특수문자 {
 
