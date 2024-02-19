@@ -20,7 +20,7 @@ public class 조건문 {
 //			System.out.println("0");
 //		}
 //    }
-}
+
 		
 		
 //		Scanner sc = new Scanner(System.in);
