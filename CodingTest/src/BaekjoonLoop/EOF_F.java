@@ -9,30 +9,34 @@ import java.util.StringTokenizer;
 
 public class EOF_F {
 
-	public static void main(String[] args)  {
+	public static void main(String[] args) {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-		try {StringTokenizer st;
+		try {
+			StringTokenizer st;
+			String line = "";
 
-		while (true) {
-			String line = br.readLine();
-			if (line == null || line == "" ){ // 입력이 끝나면 종료
-				break;
+			while ((line = br.readLine()) != null) {
+
+				st = new StringTokenizer(line);
+
+				if (st.hasMoreTokens()) {
+
+					bw.write(Integer.parseInt(st.nextToken()) + Integer.parseInt(st.nextToken()) + "\n");
+				} else {
+					break;
+				}
 			}
+			br.close();
+			bw.flush();
+			bw.close();
 
-			st = new StringTokenizer(line);
-			int A = Integer.parseInt(st.nextToken());
-			int B = Integer.parseInt(st.nextToken());
-			bw.write((A + B) + "\n");
+		} catch (
 
-		}
-		br.close();
-		bw.flush();
-		bw.close();
-		}catch (Exception e) {
-			// TODO: handle exception
+		Exception e) {
+
 		}
 	}
 
