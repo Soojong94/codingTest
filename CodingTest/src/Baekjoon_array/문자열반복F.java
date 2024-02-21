@@ -14,13 +14,15 @@ public class 문자열반복F {
 
 		for (int i = 0; i < T; i++) {
 			int R = sc.nextInt();
-			String str = sc.next(); // 문자열 str
+			String str = sc.next(); 
 
 			StringBuilder str2 = new StringBuilder();
 
 			for (int j = 0; j < str.length(); j++) {
-				char ch = str.charAt(j); // 문자열 str의 j번째 문자
-
+				char ch = str.charAt(j); 
+			
+				
+				
 				for (int k = 0; k < R; k++) {
 					str2.append(ch);
 				}
