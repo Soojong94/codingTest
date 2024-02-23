@@ -29,18 +29,25 @@ public class 그룹단어체커 {
 				int index = ch - 'a';
 
 				// 그룹단어 판별
-
+				// 이미 존재하는 단어이면  false 반환
+				
 				if (isExist[index]) {
 					isGroup = false;
 					break;
 				}
-
+				
+				// break 되지 않았으면 true 값을 넣음
+				
 				isExist[index] = true;
+				
+				// 연속한 문자가 동일하면 i++해서 옆에 없을 때까지 건너뛰고 다시 for 문으로 올라가서 검사
 
-				if (answer.length() - 1 > i && ch != answer.charAt(i + 1)) {
-					isExist[index] = false;
+				while (i + 1 < answer.length() && answer.charAt(i + 1) == ch) {
+					i++;
 				}
 			}
+			
+			// isGroup 값이 true 이면 result 값 1증가 		
 			if (isGroup) {
 				result++;
 			}
