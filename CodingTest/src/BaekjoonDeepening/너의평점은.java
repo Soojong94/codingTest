@@ -10,6 +10,7 @@ public class 너의평점은 {
 		double sum = 0; // (학점 × 과목평점)
 		double totalScore = 0; // 과목의 학점 총합
 
+		
 		for (int i = 0; i < 20; i++) {
 
 			String subject = sc.next();
