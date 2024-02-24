@@ -3,10 +3,7 @@ package Baekjoon;
 public class 조건문 {
 
 	public static void main(String[] args) {
-		
-		
-		
-		
+
 //		Scanner sc = new Scanner(System.in);
 //		int a = sc.nextInt();
 //		
@@ -20,9 +17,8 @@ public class 조건문 {
 //			System.out.println("0");
 //		}
 //    }
-}
-		
-		
+	}
+
 //		Scanner sc = new Scanner(System.in);
 //		int a = sc.nextInt();
 //
@@ -41,7 +37,6 @@ public class 조건문 {
 //		} else {
 //			System.out.println("F");
 //		}
-		
 
 //		Scanner sc = new Scanner(System.in);
 //		int A = sc.nextInt();
@@ -57,7 +52,5 @@ public class 조건문 {
 //	}
 //
 //}
-		
-	}
 
 }
