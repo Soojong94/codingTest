@@ -16,7 +16,8 @@ public class 빠른AB_5 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringTokenizer st ;
-
+		
+		
 		while (true) {	
 			st = new StringTokenizer(br.readLine());
 			int A = Integer.parseInt(st.nextToken());
