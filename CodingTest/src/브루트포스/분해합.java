@@ -9,16 +9,16 @@ public class 분해합 {
 
 		Scanner sc = new Scanner(System.in);
 		String N = sc.next();
-
-		char[] A = N.toCharArray();
-		int[] num = new int[A.length];
-		int x = 0;
-		for (int i = 0; i < A.length; i++) {
-			num[i] = (int) (A[i] - 117) ;
-			x -= num[i];
-		}
+		int [] num = new int[N.length()];
 		
-		System.out.println(x);
+		
+		
+		
+		// N = x + xi + xii
+
+		
+		
+		
 
 	}
 
